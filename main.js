@@ -37,6 +37,7 @@ function startGame(){
     feedBtn.addEventListener('click', decrementStat) 
 }
 function resetGame(){
+    age = 0
     clearInterval(interval)
     sleepStat.textContent = 0
     boredomStat.textContent = 0
