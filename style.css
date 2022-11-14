@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+h1:first-of-type{
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: bisque;
+}
+.game-container{
+    width: 75vw;
+    margin: 0 auto;  
+}
+.game-window{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightslategray;
+    padding: 1.5rem;
+    align-items: center;
+}
+.pet-container{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid blue;
+    outline: 20px lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tamagotchi {
+    
+}
+.stats{
+    display: flex;
+    gap: 1em;
+    padding-bottom: 1.5em;
+}
+.game-controls{
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
